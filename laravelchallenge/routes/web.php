@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view ('home');
+// });
+
+//Route::post('/home','homeController@openHome');
+
+Route::resource('products','ProductsController');
+Route::resource('users','UserController');

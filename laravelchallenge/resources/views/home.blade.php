@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require ('./includes/navbar.php'); ?>
+<?php require ('.includes.head.php'); ?>
 <body>
     Teste
 </body>
